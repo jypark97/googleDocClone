@@ -1,0 +1,34 @@
+html, body {
+  padding:0;
+  margin:0;
+}
+
+body {
+  overflow: hidden;
+  background-color: #FFF;
+  font-family: Roboto, sans-serif;
+}
+
+/* Ensure the editor takes up the full screen */
+.DraftEditor-root, .DraftEditor-editorContainer, div[contenteditable] {
+  height: 100%;
+}
+
+.draft-editor-container {
+  height: calc(100vh - 105px);
+  overflow: auto;
+  borderTop: solid 1px #ccc;
+  padding: 5px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
+}
